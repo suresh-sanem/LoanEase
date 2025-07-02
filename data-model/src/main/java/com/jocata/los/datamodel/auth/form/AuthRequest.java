@@ -1,10 +1,9 @@
-package com.jocata.los.datamodel.user.form;
+package com.jocata.los.datamodel.auth.form;
 
-public class UserProfile {
+public class AuthRequest {
 
     private String username;
     private String password;
-    private String role;
 
     public String getUsername() {
         return username;
@@ -20,13 +19,5 @@ public class UserProfile {
 
     public void setPassword(String password) {
         this.password = password;
-    }
-
-    public String getRole() {
-        return role;
-    }
-
-    public void setRole(String role) {
-        this.role = role;
     }
 }
